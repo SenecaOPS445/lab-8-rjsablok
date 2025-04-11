@@ -3,7 +3,7 @@
   hosts: vmlab
   become: yes
   vars:
-    seneca_id: "rjsablok-ops445"  # Replace with your actual Seneca ID
+    seneca_id: "rjsablok-ops445"  
 
   tasks:
     - name: Ensure EPEL repository is installed
